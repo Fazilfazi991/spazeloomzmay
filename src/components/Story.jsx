@@ -30,7 +30,7 @@ const Story = () => {
               viewport={{ once: true }}
               className="text-xs tracking-[0.4em] uppercase text-gold-500"
             >
-              The Spaceloomz Story
+              The Spazeloomz Story
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ const Story = () => {
             className="space-y-6 text-white/70 font-light leading-relaxed text-lg"
           >
             <p>
-              Born from a vision to redefine the aromatic landscape, Spaceloomz is a sanctuary of sensory exploration. We believe that a fragrance is more than a scent; it is an invisible armor, a silent language, and a bridge to distant memories.
+              Born from a vision to redefine the aromatic landscape, Spazeloomz is a sanctuary of sensory exploration. We believe that a fragrance is more than a scent; it is an invisible armor, a silent language, and a bridge to distant memories.
             </p>
             <p>
               Our master perfumers travel to the most remote corners of the globe, seeking out the rarest botanicals—from the night-blooming jasmine of Grasse to the precious oud of Southeast Asia. Each essence is harvested at its peak and treated with artisanal reverence.

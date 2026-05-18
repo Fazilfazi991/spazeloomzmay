@@ -48,7 +48,7 @@ const Unisex = () => {
 
             {/* Brand/Subtitle */}
             <div className="py-2">
-              <h4 className="text-xl font-serif gold-gradient-text tracking-widest uppercase">SPACELOOMZ</h4>
+              <h4 className="text-xl font-serif gold-gradient-text tracking-widest uppercase">SPAZELOOMZ</h4>
             </div>
 
             {/* Fragrance Family */}

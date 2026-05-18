@@ -9,14 +9,14 @@ const Footer = () => {
           
           {/* Column 1: Brand */}
           <div className="space-y-8">
-            <h2 className="text-2xl font-serif font-bold gold-gradient-text tracking-[0.2em] uppercase">SPACELOOMZ</h2>
+            <h2 className="text-2xl font-serif font-bold gold-gradient-text tracking-[0.2em] uppercase">SPAZELOOMZ</h2>
             <p className="text-white/60 font-light leading-relaxed pr-10">
               Curating emotions through scent. A luxury fragrance house dedicated to the art of fine living and timeless elegance.
             </p>
             <div className="space-y-4">
-              <a href="mailto:info@spaceloomz.com" className="flex items-center space-x-3 text-white/70 hover:text-gold-400 transition-colors">
+              <a href="mailto:info@spazeloomz.com" className="flex items-center space-x-3 text-white/70 hover:text-gold-400 transition-colors">
                 <Mail size={16} />
-                <span className="text-sm">info@spaceloomz.com</span>
+                <span className="text-sm">info@spazeloomz.com</span>
               </a>
               <a href="tel:+971501234567" className="flex items-center space-x-3 text-white/70 hover:text-gold-400 transition-colors">
                 <MessageCircle size={16} />
@@ -72,7 +72,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/5 pt-12 text-center">
           <p className="text-[10px] uppercase tracking-[0.3em] text-white/30">
-            &copy; {new Date().getFullYear()} SPACELOOMZ. All rights reserved.
+            &copy; {new Date().getFullYear()} SPAZELOOMZ. All rights reserved.
           </p>
         </div>
       </div>

@@ -55,7 +55,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="absolute left-1/2 -translate-x-1/2">
           <Link to="/" className="text-2xl md:text-3xl font-serif tracking-[0.3em] font-bold gold-gradient-text uppercase">
-            SPACELOOMZ
+            SPAZELOOMZ
           </Link>
         </div>
 

@@ -50,7 +50,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.4 }}
           className="text-6xl md:text-8xl lg:text-[10rem] font-serif font-light gold-gradient-text tracking-tighter mb-8"
         >
-          SPACELOOMZ
+          SPAZELOOMZ
         </motion.h1>
 
         <motion.p
