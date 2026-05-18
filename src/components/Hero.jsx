@@ -34,7 +34,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center max-w-4xl px-6">
+      <div className="relative z-10 text-center w-full px-6">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -48,7 +48,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="text-6xl md:text-8xl lg:text-[10rem] font-serif font-light gold-gradient-text tracking-tighter mb-8"
+          className="text-6xl md:text-8xl lg:text-9xl xl:text-[9rem] font-serif font-light gold-gradient-text tracking-tighter mb-8 whitespace-nowrap"
         >
           SPAZELOOMZ
         </motion.h1>
