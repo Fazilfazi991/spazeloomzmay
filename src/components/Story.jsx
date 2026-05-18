@@ -14,8 +14,8 @@ const Story = () => {
           className="relative w-full lg:w-1/2 aspect-[4/5] overflow-hidden group"
         >
           <img
-            src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=1000"
-            alt="Perfume Creation"
+            src="/assets/about-story.jpg"
+            alt="Perfume making process"
             className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all duration-500"></div>

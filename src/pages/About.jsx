@@ -112,8 +112,8 @@ const About = () => {
           <div className="w-full lg:w-1/2 space-y-12 mt-12 lg:mt-0">
             <div className="relative aspect-[16/9] overflow-hidden mb-12 border border-white/10 group">
               <img
-                src="/assets/about2.jpg"
-                alt="Signature Collection"
+                src="/assets/about-story.jpg"
+                alt="Our Craft"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-60"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
