@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import { Link } from 'react-router-dom';
+
 const Hero = () => {
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
@@ -67,9 +69,11 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 1 }}
         >
-          <button className="btn-gold">
-            Explore Collection
-          </button>
+          <Link to="/collections">
+            <button className="btn-gold">
+              Explore Collection
+            </button>
+          </Link>
         </motion.div>
       </div>
     </section>

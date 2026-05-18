@@ -9,6 +9,7 @@ import Unisex from './pages/Unisex';
 import Footer from './components/Footer';
 
 import ProductDetail from './pages/ProductDetail';
+import Collections from './pages/Collections';
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
             <Route path="/men" element={<Men />} />
             <Route path="/women" element={<Women />} />
             <Route path="/unisex" element={<Unisex />} />
+            <Route path="/collections" element={<Collections />} />
             <Route path="/product/:productId" element={<ProductDetail />} />
             {/* Fallback to Home */}
             <Route path="*" element={<Home />} />

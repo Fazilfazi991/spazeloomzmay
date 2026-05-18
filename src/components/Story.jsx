@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Story = () => {
   return (
@@ -65,10 +66,11 @@ const Story = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
+            className="pt-4"
           >
-            <a href="#" className="inline-block border-b border-gold-500/50 pb-2 text-sm uppercase tracking-widest text-gold-400 hover:text-gold-200 transition-colors">
-              Read Our Full Story
-            </a>
+            <Link to="/about" className="inline-block border-b border-gold-500/50 pb-2 text-sm uppercase tracking-widest text-gold-400 hover:text-gold-200 transition-colors">
+              Discover Our Process
+            </Link>
           </motion.div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Heritage = () => {
   return (
@@ -51,9 +52,11 @@ const Heritage = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}
         >
-          <button className="px-10 py-3 bg-black/40 border border-white/20 text-white uppercase tracking-[0.2em] text-[10px] font-medium hover:bg-white hover:text-black transition-all duration-700 backdrop-blur-sm">
-            Discover Origins
-          </button>
+          <Link to="/about">
+            <button className="px-10 py-3 bg-black/40 border border-white/20 text-white uppercase tracking-[0.2em] text-[10px] font-medium hover:bg-white hover:text-black transition-all duration-700 backdrop-blur-sm">
+              Discover Origins
+            </button>
+          </Link>
         </motion.div>
       </div>
     </section>

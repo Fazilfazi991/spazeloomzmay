@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { MessageCircle, Mail, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
 
 const Footer = () => {
@@ -28,13 +29,22 @@ const Footer = () => {
           {/* Column 2: Navigation */}
           <div className="space-y-8">
             <h4 className="text-[10px] uppercase tracking-[0.3em] font-medium text-white/50">Company</h4>
-            <ul className="space-y-4">
-              {['Collections', 'Our Story', 'Bespoke Services', 'Sustainability', 'Privacy Policy'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="text-white/70 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest">{item}</a>
-                </li>
-              ))}
-            </ul>
+              <ul className="space-y-4">
+                {[
+                  { name: 'Shop', path: '/collections' },
+                  { name: 'Our Story', path: '/about' },
+                  { name: 'Collections', path: '/collections' },
+                  { name: 'Contact', path: 'mailto:info@spazeloomz.com' }
+                ].map((item) => (
+                  <li key={item.name}>
+                    {item.path.startsWith('mailto') ? (
+                      <a href={item.path} className="text-white/70 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest">{item.name}</a>
+                    ) : (
+                      <Link to={item.path} className="text-white/70 hover:text-gold-400 transition-colors text-sm uppercase tracking-widest">{item.name}</Link>
+                    )}
+                  </li>
+                ))}
+              </ul>
           </div>
 
           {/* Column 3: UAE Office */}
